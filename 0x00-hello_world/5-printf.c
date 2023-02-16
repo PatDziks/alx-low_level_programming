@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - main fuction using the printf command
+ * main - using the prinf function to output
  *
- * Return: always returning 0
+ * Return: this alwsy outputs 0
  */
 
 int main(void)
 {
-	printf("\"with proper grammar, but the outcome is a piece of art,\n");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }

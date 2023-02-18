@@ -1,13 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
-#include <stdio.h>
+#include<stdio.h>
 /* betty style doc for function main goes there */
 /**
  * main - the very first main function:%s/\s\+$//e
  * Return: alwways should be 0
  */
-
 int main(void)
 {
 	int n;

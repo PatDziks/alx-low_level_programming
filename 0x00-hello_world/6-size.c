@@ -1,18 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - Prints the size of various sizes of computers
- *
- * Return: this alwsy has to be 0 for now
+ * main - prints all single digit numbers of base 10 starting from 0,
+ * followed by a new line, using putchar
+ * Return: Always 0 (Success)
  */
-
-int main(main)
+int main(void)
 {
-	printf("Size of a char: %zu byte(s)\n", sizeof(char));
+	int n;
 
-	printf("Size of an int: %zu byte(s)\n", sizeof(int));
-	printf("Size of a long int: %zu byte(s)\n", sizeof(long int));
-	printf("Size of a long long int: %zu byte(S)\n", sizeof(long long int));
-	printf("Size of a float: %zu byte(s)\n", sizeof(float));
+	for (n = 48; n < 58; n++)
+	{
+		putchar(n);
+	}
+	putchar('\n');
 	return (0);
 }

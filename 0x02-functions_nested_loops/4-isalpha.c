@@ -1,0 +1,18 @@
+#include "main.h"
+
+/**
+ * _isalpha - function that checks for alphabets
+ *
+ * @c: parameter to be cjecked
+ *
+ * Return: 0 if it is an alphabet
+ * and 0 if found otherwise
+ */
+
+int _isalpha(int c)
+{
+	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
+		return (1);
+	else
+		return (0);
+}
